@@ -18,7 +18,7 @@ This project demonstrates a complete data cleaning and feature engineering pipel
 ## Technologies Used
 
 - **Python / Pandas** – data manipulation and transformation
-- **Jupyter / PyCharm** – local dev & exploration
+- **PyCharm** – local dev & exploration
 - *(Future-ready for: Apache Spark, PostgreSQL, dbt, Airflow, etc.)*
 
 ---

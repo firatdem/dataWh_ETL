@@ -1,4 +1,4 @@
-# 🏥 Healthcare Data ETL & Warehousing Pipeline
+# Healthcare Data ETL & Warehousing Pipeline
 
 **Project Repo:** `dataWH_ETL`
 
@@ -6,7 +6,7 @@ This project demonstrates a complete data cleaning and feature engineering pipel
 
 ---
 
-## 📌 Goals
+## Goals
 
 - Clean and standardize a realistic healthcare dataset
 - Perform feature engineering to enable deep analysis
@@ -15,7 +15,7 @@ This project demonstrates a complete data cleaning and feature engineering pipel
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **Python / Pandas** – data manipulation and transformation
 - **Jupyter / PyCharm** – local dev & exploration
@@ -23,7 +23,7 @@ This project demonstrates a complete data cleaning and feature engineering pipel
 
 ---
 
-## 🧹 Steps Performed
+## Steps Performed
 
 ### 1. Understand the Data
 - Previewed structure, types, and distributions
@@ -65,6 +65,37 @@ This project demonstrates a complete data cleaning and feature engineering pipel
 
 ---
 
-## 📁 Output
+## Output
 
 Final cleaned file:
+
+cleaned_healthcare_data.csv
+
+
+Ready for:
+- SQL-based analytics
+- Spark ingestion
+- Warehousing
+- ML pipelines
+
+---
+
+## Next Steps (Planned)
+
+- Load into PostgreSQL or Redshift
+- Build SQL queries or dashboards
+- Create Apache Spark-based transformation pipeline
+- Automate with Apache Airflow or dbt
+
+---
+
+## Author
+
+Built by Firat Demirbulakli — aspiring Data Engineer with a focus on building real-world pipelines and automating data transformation workflows.
+
+---
+
+## Like this project?
+Star it, fork it, or reach out if you'd like to collaborate!
+
+

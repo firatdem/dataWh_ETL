@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482d5aab-31cf-4ecd-8a9f-0674d1fd8770" name="Changes" comment="First upload of files">
-      <change afterPath="$PROJECT_DIR$/schema_design.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleaned_healthcare_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cleaned_healthcare_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="482d5aab-31cf-4ecd-8a9f-0674d1fd8770" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,11 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1743004736366</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Schema creation, and SQL statements to ultimately bring tables into postgre">
+      <option name="closed" value="true" />
+      <created>1743187390885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743187390885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First upload of files" />
-    <option name="LAST_COMMIT_MESSAGE" value="First upload of files" />
+    <MESSAGE value="Schema creation, and SQL statements to ultimately bring tables into postgre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Schema creation, and SQL statements to ultimately bring tables into postgre" />
   </component>
 </project>

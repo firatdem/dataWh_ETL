@@ -7,16 +7,16 @@ High level view:
 1. Understand the data - REUSABLE
 2. Handle missing values - REUSABLE
 3. Fix column names - REUSABLE
-4. Fix data types -
-5. Standardize Categorical data
-6. Remove duplicates
+4. Fix data types - REUSABLE WITH CHANGES
+5. Standardize Categorical data - REUSABLE WITH CHANGES
+6. Remove duplicates - REUSABLE WITH (MINOR) CHANGES
 7. Outlier detection
 8. Feature engineering
 9. Final checks
 
 """
 
-
+import numpy as np
 import pandas as pd
 """
 1. Understand the data
@@ -206,7 +206,8 @@ print(df[df['los_outlier']][['name', 'length_of_stay']].head())
 # Age buckets for demographic analysis
 df['age_group'] = pd.cut(df['age'], bins=[0, 18, 35, 50, 65, 100], labels=['0-18', '19-35', '36-50', '51-65', '66+'])
 
-df['total_stay_cost'] = df.apply(
+# Calculate stay per night
+df['cost_per_day'] = df.apply(
     lambda row: row['billing_amount'] / row['length_of_stay']
     if row['length_of_stay'] and row['length_of_stay'] > 0 else None,
     axis=1
@@ -247,13 +248,25 @@ print(df.dtypes)
 print("\nNull Counts by Column:")
 print(df.isnull().sum())
 
+# Drop columns used for derived aggregations (not part of stored output)
+df.drop(columns=['hospital_patient_count', 'visit_count'], inplace=True)
+
+# Drop columns related to outlier data
 df.drop(columns=['age_outlier', 'billing_outlier', 'los_outlier'], inplace=True)
 
 print("\nFinal Shape:", df.shape)
 print("Unique Patient Names:", df['name'].nunique())
 
-df.to_csv("cleaned_healthcare_data.csv", index=False)
+# Round billing_amount and cost_per_day UP to 2 decimal places
+df['billing_amount'] = np.ceil(df['billing_amount'] * 100) / 100
+df['cost_per_day'] = df['cost_per_day'].apply(
+    lambda x: np.ceil(x * 100) / 100 if pd.notnull(x) else x
+)
+
+# Save as CSV with float values shown as xx.00
+df.to_csv("cleaned_healthcare_data.csv", index=False, float_format="%.2f")
 print("\n✅ Cleaned dataset saved as 'cleaned_healthcare_data.csv'")
+
 
 
 

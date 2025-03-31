@@ -1,6 +1,6 @@
 # Load Data Instructions
 
-This guide will help you load the cleaned CSV files into your PostgreSQL database for the `datawheta` project.
+This guide will help you load the cleaned CSV files into your PostgreSQL database for the `dataWH_ETL` project.
 
 ---
 

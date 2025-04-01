@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482d5aab-31cf-4ecd-8a9f-0674d1fd8770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sql/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/analysis_queries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/extract_to_dash.py" afterDir="false" />
+    <list default="true" id="482d5aab-31cf-4ecd-8a9f-0674d1fd8770" name="Changes" comment="First version of placeholder extract_to_dash.py written. .env to .gitignore.&#10;&#10;TO DO:&#10;&#10;Create a more interactive and usable dashboard, most likely using Dash.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -154,13 +150,22 @@
       <option name="project" value="LOCAL" />
       <updated>1743440276536</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First version of placeholder extract_to_dash.py written. .env to .gitignore.&#10;&#10;TO DO:&#10;&#10;Create a more interactive and usable dashboard, most likely using Dash.">
+      <option name="closed" value="true" />
+      <created>1743522225759</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743522225759</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First upload of files" />
     <MESSAGE value="Schema creation, and SQL statements to ultimately bring tables into postgre" />
     <MESSAGE value="Shared table creation SQL, and also gave load instructions for cleaned data sets to postgre DB." />
-    <option name="LAST_COMMIT_MESSAGE" value="Shared table creation SQL, and also gave load instructions for cleaned data sets to postgre DB." />
+    <MESSAGE value="First version of placeholder extract_to_dash.py written. .env to .gitignore.&#10;&#10;TO DO:&#10;&#10;Create a more interactive and usable dashboard, most likely using Dash." />
+    <option name="LAST_COMMIT_MESSAGE" value="First version of placeholder extract_to_dash.py written. .env to .gitignore.&#10;&#10;TO DO:&#10;&#10;Create a more interactive and usable dashboard, most likely using Dash." />
   </component>
 </project>

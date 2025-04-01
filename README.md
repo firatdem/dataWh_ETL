@@ -82,7 +82,7 @@ Ready for:
 
 ## Next Steps (Planned)
 
-- Load into PostgreSQL or Redshift
+- ~~Load into PostgreSQL or Redshift~~
 - Build SQL queries or dashboards
 - Create Apache Spark-based transformation pipeline
 - Automate with Apache Airflow or dbt

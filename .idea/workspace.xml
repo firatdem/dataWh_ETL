@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="482d5aab-31cf-4ecd-8a9f-0674d1fd8770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sql/create_tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/load_data_instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/analysis_queries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/extract_to_dash.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.schema_design.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.extract_to_dash.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.schema_design.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="dataWh_ETL" />
@@ -144,12 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1743187456746</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Shared table creation SQL, and also gave load instructions for cleaned data sets to postgre DB.">
+      <option name="closed" value="true" />
+      <created>1743440276536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743440276536</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First upload of files" />
     <MESSAGE value="Schema creation, and SQL statements to ultimately bring tables into postgre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Schema creation, and SQL statements to ultimately bring tables into postgre" />
+    <MESSAGE value="Shared table creation SQL, and also gave load instructions for cleaned data sets to postgre DB." />
+    <option name="LAST_COMMIT_MESSAGE" value="Shared table creation SQL, and also gave load instructions for cleaned data sets to postgre DB." />
   </component>
 </project>
